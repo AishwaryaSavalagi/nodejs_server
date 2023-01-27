@@ -8,7 +8,7 @@ const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '1234',
-    database: 'Doctor_Appointment'
+    database: 'doctor_appointment'
 });
 
 app.use(express.json());
